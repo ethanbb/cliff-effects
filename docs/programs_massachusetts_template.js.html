@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: programs/massachusetts/template.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: programs/massachusetts/template.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** 
+* TEMPLATE FOR A FILE IN './src/programs/statename/this-script.js'
+* This template should help you understand how to create a benefit or
+* eligibility function that returns the correct values to provide feedback
+* to the user.
+* 
+* Stuff that isn't commented out is required.
+* 
+* The file references are geared towards a file in the above specified
+* location. If the file structure of the project changes, this should
+* be updated.
+* 
+* When you create your script, please delete this comment block.
+*/
+
+// DATA
+// import { SOME_DATA } from '../../../data/massachusetts/2018/SOME_DATA.js';
+
+// UTILITIES
+// import { roundMoney } from '../../../utils/math';
+
+// TO RETURN
+import { Result } from '../../../utils/Result';
+
+
+/** 
+* Description of purpose of function with notes about helpful things like
+* unusual methodology or behavior
+* 
+* @see sources: {@link https://...}
+* @see notes: {@link https://...}
+* @see codepen test: {@link https://...}
+* 
+* @todo Something that would need to be done
+* 
+* @function
+* @since mm/yy
+* 
+* @param {object} client
+* @property {object} client.neededProp1 - Description of prop
+* @property {string} client.neededProp2 - Description of prop
+* @property {number} [client.optionalProp3] - Description of prop
+* 
+* @returns {Result} (how to reference an external class is currently unknown)
+*/
+var getProgramNameBenefits = function (client) {
+
+  // Do some calculations with client, adding helper functions
+  // in here if needed.
+
+  var result = {
+    result:  'good',
+    details: 'All good!',
+    data:    { important: 10, external: 500, info: 'ELI' },
+  };
+
+  return Result(result);
+};  // End getProgramNameBenefits()
+
+
+/** 
+* A description here would probably be good too
+* 
+* @see sources: {@link https://...} - and some sources if useful
+* 
+* @function
+* @since mm/yy
+* 
+* @param {string} arg1 - What I think about when I'm bored
+* @param {number} arg2 - How many times did my alarm go off before I
+* got out of bed this morning
+* 
+* @returns {boolean} punnier - whether or not I like puns
+*/
+// var aFunction = function ( arg1, arg2 ) {
+// 	// Some useful abstracted logic
+//   var punnier = false;
+// 	return punnier;
+// };  // End aFunction()
+
+
+export { getProgramNameBenefits };
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-%25257BObject%25257D.html">{Object}</a></li></ul><h3>Classes</h3><ul><li><a href="BrowserLeaveListener.html">BrowserLeaveListener</a></li><li><a href="CashFlowRowAfterConfirm.html">CashFlowRowAfterConfirm</a></li><li><a href="Confirmer.html">Confirmer</a></li><li><a href="CustomClient.html">CustomClient</a></li><li><a href="ErrorListener.html">ErrorListener</a></li><li><a href="FeedbackPrompt.html">FeedbackPrompt</a></li><li><a href="HeadingWithDetail.html">HeadingWithDetail</a></li><li><a href="ManagedNumberField.html">ManagedNumberField</a></li><li><a href="ReactRouterLeaveListener.html">ReactRouterLeaveListener</a></li><li><a href="RowWithDetail.html">RowWithDetail</a></li><li><a href="ShowOnYes.html">ShowOnYes</a></li><li><a href="VerticalLine.html">VerticalLine</a></li></ul><h3>Global</h3><ul><li><a href="global.html#AboutContent">AboutContent</a></li><li><a href="global.html#applySideEffects">applySideEffects</a></li><li><a href="global.html#BigButton">BigButton</a></li><li><a href="global.html#CashFlowContainer">CashFlowContainer</a></li><li><a href="global.html#CashFlowInputsRow">CashFlowInputsRow</a></li><li><a href="global.html#CLIENT_DEFAULTS">CLIENT_DEFAULTS</a></li><li><a href="global.html#ColumnHeader">ColumnHeader</a></li><li><a href="global.html#ColumnHeading">ColumnHeading</a></li><li><a href="global.html#ContentH1">ContentH1</a></li><li><a href="global.html#ContentSubH1">ContentSubH1</a></li><li><a href="global.html#ControlledRadioYesNo">ControlledRadioYesNo</a></li><li><a href="global.html#CurrentBenefitsContent">CurrentBenefitsContent</a></li><li><a href="global.html#CurrentBenefitsStep">CurrentBenefitsStep</a></li><li><a href="global.html#CurrentExpensesStep">CurrentExpensesStep</a></li><li><a href="global.html#CurrentIncomeStep">CurrentIncomeStep</a></li><li><a href="global.html#data">data</a></li><li><a href="global.html#EarnedFrom">EarnedFrom</a></li><li><a href="global.html#empty">empty</a></li><li><a href="global.html#ExpensesFormContent">ExpensesFormContent</a></li><li><a href="global.html#ExternalLink">ExternalLink</a></li><li><a href="global.html#FormBottomRow">FormBottomRow</a></li><li><a href="global.html#FormPartsContainer">FormPartsContainer</a></li><li><a href="global.html#getBenefitTimeFrames">getBenefitTimeFrames</a></li><li><a href="global.html#getData">getData</a></li><li><a href="global.html#getDatasets">getDatasets</a></li><li><a href="global.html#getDependentCostsMonthly">getDependentCostsMonthly</a></li><li><a href="global.html#getEveryMember">getEveryMember</a></li><li><a href="global.html#getEveryMemberOfHousehold">getEveryMemberOfHousehold</a></li><li><a href="global.html#getExtraAmount">getExtraAmount</a></li><li><a href="global.html#getGrossUnearnedIncomeMonthly">getGrossUnearnedIncomeMonthly</a></li><li><a href="global.html#getLimitBySize">getLimitBySize</a></li><li><a href="global.html#getMaxIntKey">getMaxIntKey</a></li><li><a href="global.html#getMembers">getMembers</a></li><li><a href="global.html#getProgramNameBenefits">getProgramNameBenefits</a></li><li><a href="global.html#getSection8Benefit">getSection8Benefit</a></li><li><a href="global.html#getSimpleGrossIncomeMonthly">getSimpleGrossIncomeMonthly</a></li><li><a href="global.html#getSNAPBenefits">getSNAPBenefits</a></li><li><a href="global.html#getTextForLanguage">getTextForLanguage</a></li><li><a href="global.html#getTimeSetter">getTimeSetter</a></li><li><a href="global.html#getUnder13Expenses">getUnder13Expenses</a></li><li><a href="global.html#hasOnlyNonNegNumberChars">hasOnlyNonNegNumberChars</a></li><li><a href="global.html#hasOnlyNonNegWholeNumberChars">hasOnlyNonNegWholeNumberChars</a></li><li><a href="global.html#HouseholdContent">HouseholdContent</a></li><li><a href="global.html#HouseholdStep">HouseholdStep</a></li><li><a href="global.html#Housing">Housing</a></li><li><a href="global.html#IncomeForm">IncomeForm</a></li><li><a href="global.html#interpolateSnippets">interpolateSnippets</a></li><li><a href="global.html#interpolateText">interpolateText</a></li><li><a href="global.html#IntervalColumnHeadings">IntervalColumnHeadings</a></li><li><a href="global.html#InvalidMessage">InvalidMessage</a></li><li><a href="global.html#isDependent">isDependent</a></li><li><a href="global.html#isNonNegNumber">isNonNegNumber</a></li><li><a href="global.html#isNonNegWholeNumber">isNonNegWholeNumber</a></li><li><a href="global.html#limit">limit</a></li><li><a href="global.html#MemberButton">MemberButton</a></li><li><a href="global.html#MemberField">MemberField</a></li><li><a href="global.html#mergeCustomizer">mergeCustomizer</a></li><li><a href="global.html#moneyToWholeNum">moneyToWholeNum</a></li><li><a href="global.html#MonthlyCashFlowRow">MonthlyCashFlowRow</a></li><li><a href="global.html#PredictionsStep">PredictionsStep</a></li><li><a href="global.html#RenderIfTrue">RenderIfTrue</a></li><li><a href="global.html#returnSame">returnSame</a></li><li><a href="global.html#Role">Role</a></li><li><a href="global.html#sampleClients">sampleClients</a></li><li><a href="global.html#SpaceHolder">SpaceHolder</a></li><li><a href="global.html#StackedBarGraph">StackedBarGraph</a></li><li><a href="global.html#sum">sum</a></li><li><a href="global.html#sumProps">sumProps</a></li><li><a href="global.html#toBoolean">toBoolean</a></li><li><a href="global.html#toMoneyStr">toMoneyStr</a></li><li><a href="global.html#toMonthlyFrom">toMonthlyFrom</a></li><li><a href="global.html#toWeeklyFrom">toWeeklyFrom</a></li><li><a href="global.html#toYearlyFrom">toYearlyFrom</a></li><li><a href="global.html#undefinedString">undefinedString</a></li><li><a href="global.html#UNDER13_NON_TRANSPORT_CARE">UNDER13_NON_TRANSPORT_CARE</a></li><li><a href="global.html#UNEARNED_INCOME_SOURCES">UNEARNED_INCOME_SOURCES</a></li><li><a href="global.html#valueFixers">valueFixers</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Tue Sep 11 2018 20:31:41 GMT-0500 (DST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
